@@ -15,7 +15,7 @@ data and train & evaluate models, as well as the necessary data for training you
 
 Clone this repository or your fork thereof in the desired place:
 
-    git clone https://github.com/moritz-steiner/mt-exercise-4
+    git clone https://github.com/alemsiz/mt-exercise-4
 
 Create a new virtualenv that uses Python 3. Please make sure to run this command outside of any virtual Python environment:
 
@@ -27,10 +27,12 @@ Make sure to install the exact software versions specified in the the exercise s
 
 Download Moses for post-processing:
 
-    ./scripts/download_install_packages.sh
+    ./scripts/download_moses.sh
 
 
 Train a model:
+
+First, select the correct model configuration file from `mt-exercise-4/configs` and update the model name in `train.sh` accordingly.
 
     ./scripts/train.sh
 
