@@ -32,7 +32,7 @@ Download Moses for post-processing:
 
 Train a model:
 
-First, select the correct model configuration file from `mt-exercise-4/configs` and update the model name in `train.sh` accordingly. Then, to train the specified model, run:
+First, select the correct model configuration file from `mt-exercise-4/configs` and update `model name` in `scripts/train.sh` accordingly. Then, to train the specified model, run:
 
     ./scripts/train.sh
 
